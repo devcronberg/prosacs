@@ -123,6 +123,8 @@ Kontrolstrukturer i C# bruges til at styre programflowet og tage beslutninger ba
 -   `for`-loop: Bruges til at udføre en kodeblok et bestemt antal gange.
 -   `while`-loop: Bruges til at udføre en kodeblok, så længe en betingelse er sand.
 
+### Eksempler
+
 ```csharp
 using System;
 
@@ -205,6 +207,8 @@ Returtypen i en metode definerer den datatype, som metoden returnerer, når den 
 
 Et lambda-udtryk er en kort syntaks til at definere en anonym metode i C#. Lambda-udtryk kan bruges til at definere en inline funktion, der kan bruges til at udføre en bestemt handling. Lambda-udtryk består normalt af en parameterliste, en pile-operatør (`=>`) og en kodeblok, der udfører handlingen.
 
+### Eksempler
+
 ```csharp
 using System;
 
@@ -273,6 +277,8 @@ Metoder i C# er kodeblokke, der udfører en bestemt handling og kan kaldes fra a
 ### Interfaces
 
 Interfaces i C# er en samling af metoder og egenskaber, der kan implementeres af en klasse. Et interface definerer en kontrakt, som en klasse skal overholde for at være kompatibel med andre dele af koden. Interfaces kan bruges til at opdele store applikationer i mindre, mere sammenhængende dele og opnå løs kobling mellem forskellige dele af koden.
+
+### Eksempler
 
 ```csharp
 using System;
@@ -356,8 +362,15 @@ namespace ObjectOrientedProgrammingExample
 
 ## Fejlhåndtering og undtagelser
 
--   Try-catch blokke
--   Brug af finally
+### Try-catch blokke
+
+Try-catch blokke i C# bruges til at håndtere undtagelser eller fejl, der kan opstå under kørslen af programmet. En try-blok indeholder kode, der kan forårsage en undtagelse. Hvis en undtagelse opstår i try-blokken, går programmet til catch-blokken, hvor undtagelsen kan håndteres. Try-catch blokke kan hjælpe med at undgå uventede fejl og gøre dit program mere robust.
+
+### Brug af finally
+
+Finally blokke i C# bruges normalt sammen med try-catch blokke. En finally-blok indeholder kode, der altid udføres, uanset om der opstår en undtagelse eller ej. Finally-blokken bruges ofte til at rydde op eller frigøre ressourcer, f.eks. lukke en åben fil eller databaseforbindelse.
+
+### Eksempler
 
 ```csharp
 using System;
@@ -426,6 +439,8 @@ Lister i C# er en dynamisk samling af elementer af samme datatypen, der kan voks
 ### LINQ grundlæggende
 
 LINQ står for Language Integrated Query, og det er en måde at skrive SQL-lignende forespørgsler i C#. LINQ kan bruges til at hente data fra forskellige kilder, f.eks. arrays, lister, databaser osv. LINQ-forespørgsler består normalt af en række operationer, f.eks. filtrering, sortering, gruppe og projicering, og de kan udtrykkes ved hjælp af forskellige metoder.
+
+### Eksempler
 
 ```csharp
 using System;
