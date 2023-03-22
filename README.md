@@ -1,6 +1,6 @@
 # Introduktion til C#
 
-> Foredrag for Prosa af [Michell Cronberg](michell@cronberg.dk).
+> Foredrag for Prosa af [Michell Cronberg](mailto:michell@cronberg.dk).
 
 | Tidspunkt       | Varighed (min) | % af samlet tid | Emne                           |
 | --------------- | -------------- | --------------- | ------------------------------ |
@@ -18,9 +18,6 @@
 | **Samlet**      | **120**        | **100%**        |                                |
 
 ## Introduktion
-
--   C#'s historie
--   Hvorfor lære C#
 
 ### C#'s historie
 
@@ -54,11 +51,6 @@ Der er flere gode grunde til at lære C#:
 -   Kompilering og kørsel af programmet
 
 ## Formål og anvendelser
-
--   Desktopapplikationer
--   Webapplikationer
--   Mobilapplikationer
--   Spiludvikling
 
 C# er et alsidigt programmeringssprog, der kan bruges til en bred vifte af applikationer. Nogle af de mest almindelige anvendelser inkluderer:
 
