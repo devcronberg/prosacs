@@ -11,3 +11,64 @@
 | 95-105    | Fejlhåndtering og undtagelser         | Introduktion til fejlhåndtering i C# ved hjælp af try-catch blokke og undtagelsesklasser.                           |
 | 105-115   | Samlinger og LINQ                     | Gennemgang af samlingstyper som arrays, lister og ordbøger, samt introduktion til Language Integrated Query (LINQ).|
 | 115-120   | Spørgsmål og opsummering              | Mulighed for at stille spørgsmål og en kort opsummering af de vigtigste punkter fra foredraget.                    |
+
+## Introduktion
+- Foredragsholderens baggrund
+- C#'s historie
+- Hvorfor lære C#
+
+## "Hello, World!"-eksempel
+- Oprettelse af et nyt C#-projekt
+- Skrivning af "Hello, World!"-koden
+- Kompilering og kørsel af programmet
+
+## Formål og anvendelser
+- Desktopapplikationer
+- Webapplikationer
+- Mobilapplikationer
+- Spiludvikling
+
+## Værktøjer og opsætning
+- Visual Studio
+- Visual Studio Code
+- .NET SDK
+- Opsætning af udviklingsmiljø
+
+## Grundlæggende C#-syntaks
+- Variabler
+- Datatyper
+- Operatører
+- Kontrolstrukturer (if, for, while)
+
+## Metoder og lambda-udtryk
+- Metode-definitioner
+- Parametre
+- Returtyper
+- Lambda-udtryk
+
+## Pause
+- 15-minutters pause
+
+## Objektorienteret programmering
+- Klasser
+- Objekter
+- Egenskaber
+- Metoder
+- Arv
+- Interfaces
+- Serialisering
+
+## Fejlhåndtering og undtagelser
+- Try-catch blokke
+- Undtagelsesklasser
+- Brug af finally
+
+## Samlinger og LINQ
+- Arrays
+- Lister
+- Ordbøger
+- LINQ grundlæggende
+
+## Spørgsmål og opsummering
+- Spørgsmål fra deltagerne
+- Opsummering af nøglepunkter
