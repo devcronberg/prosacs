@@ -85,19 +85,43 @@ C# er et alsidigt programmeringssprog, der kan bruges til en bred vifte af appli
         - Unity: En af de mest populære spilmotorer i verden, der bruges til at oprette 2D- og 3D-spil, virtual reality og augmented reality oplevelser til en lang række platforme, herunder pc'er, konsoller, mobiltelefoner og webbrowsere.
         - MonoGame: En open-source, cross-platform spiludviklingsramme, der er en efterfølger til Microsoft XNA. MonoGame tillader udviklere at oprette 2D- og 3D-spil til en lang række platforme, herunder Windows, macOS, Linux, Android, iOS og mere.
 
-## Værktøjer og opsætning
+## Værktøjer
 
--   Visual Studio
--   Visual Studio Code
--   .NET SDK
--   Opsætning af udviklingsmiljø
+-   [Visual Studio](https://visualstudio.microsoft.com/): Et kraftfuldt udviklingsmiljø til Windows og macOS, der understøtter C# og mange andre sprog. Visual Studio indeholder en lang række værktøjer og funktioner til at lette udviklingen af applikationer og spil.
+-   [Visual Studio Code](https://code.visualstudio.com/): En letvægts, open-source og cross-platform kode-editor til Windows, macOS og Linux, der understøtter C# og mange andre sprog. Visual Studio Code kan udvides med et stort antal udvidelser, der tilføjer ekstra funktionalitet og understøttelse for forskellige sprog og teknologier.
+-   [.NET SDK](https://dotnet.microsoft.com/download): Software Development Kit (SDK) til .NET-platformen, der indeholder værktøjer, kompilatorer og biblioteker, der er nødvendige for at udvikle, bygge og køre C#-applikationer. .NET SDK er tilgængelig for Windows, macOS og Linux.
 
 ## Grundlæggende C#-syntaks
 
--   Variabler
--   Datatyper
--   Operatører
--   Kontrolstrukturer (if, for, while)
+### Variabler
+
+En variabel er en navngivet lagerplads i computerens hukommelse, der indeholder en værdi af en bestemt datatype. Variabler bruges i programmering til at gemme midlertidige værdier, der kan ændres i løbet af programkørslen. I C# skal du deklarere en variabel ved at angive dens datatypen og navn, f.eks. `int count = 0;`, som opretter en variabel med navnet "count" og tildeler den en startværdi på 0.
+
+### Datatyper
+
+I C# er der forskellige typer af data, som kan opbevares i variabler. Nogle af de mest almindelige datatyper inkluderer:
+
+-   `int`: heltal (f.eks. 1, 2, 3)
+-   `double`: decimaltal med høj præcision (f.eks. 3.1415)
+-   `string`: tekststreng (f.eks. "Hej verden!")
+-   `bool`: en sand eller falsk værdi (f.eks. `true` eller `false`)
+-   `char`: en enkelt karakter (f.eks. 'a' eller 'b')
+
+### Operatører
+
+Operatører i C# bruges til at udføre aritmetiske, logiske og sammenligningsmæssige operationer på variabler og værdier. Nogle af de mest almindelige operatører inkluderer:
+
+-   Aritmetiske operatører: `+` (addition), `-` (subtraktion), `*` (multiplikation), `/` (division), `%` (modulo)
+-   Logiske operatører: `&&` (and), `||` (or), `!` (not)
+-   Sammenligningsmæssige operatører: `==` (lig med), `!=` (ikke lig med), `<` (mindre end), `>` (større end), `<=` (mindre end eller lig med), `>=` (større end eller lig med)
+
+### Kontrolstrukturer
+
+Kontrolstrukturer i C# bruges til at styre programflowet og tage beslutninger baseret på visse betingelser. Nogle af de mest almindelige kontrolstrukturer inkluderer:
+
+-   `if`-statement: Bruges til at udføre en kodeblok, hvis en betingelse er sand.
+-   `for`-loop: Bruges til at udføre en kodeblok et bestemt antal gange.
+-   `while`-loop: Bruges til at udføre en kodeblok, så længe en betingelse er sand.
 
 ```csharp
 using System;
@@ -165,10 +189,21 @@ namespace BasicCSharpSyntaxExample
 
 ## Metoder og lambda-udtryk
 
--   Metode-definitioner
--   Parametre
--   Returtyper
--   Lambda-udtryk
+### Metode-definitioner
+
+En metode i C# er en kodeblok, der udfører en bestemt handling og kan kaldes fra andre dele af koden. Metoder skal defineres med et navn, en række parametre og en returtype. En metode kan også have en kodeblok, der udføres, når metoden kaldes.
+
+### Parametre
+
+Parametre er værdier, som en metode modtager, når den kaldes. Parametre kan bruges i metoden til at udføre en bestemt handling. Parametre skal defineres med en datatype og et navn i metode-definitionen.
+
+### Returtyper
+
+Returtypen i en metode definerer den datatype, som metoden returnerer, når den er færdig med at udføre sin handling. Hvis en metode ikke returnerer nogen værdi, skal den defineres med en returtype af typen `void`.
+
+# ## Lambda-udtryk
+
+Et lambda-udtryk er en kort syntaks til at definere en anonym metode i C#. Lambda-udtryk kan bruges til at definere en inline funktion, der kan bruges til at udføre en bestemt handling. Lambda-udtryk består normalt af en parameterliste, en pile-operatør (`=>`) og en kodeblok, der udfører handlingen.
 
 ```csharp
 using System;
@@ -215,12 +250,29 @@ namespace MethodsAndLambdasExample
 
 ## Objektorienteret programmering
 
--   Klasser
--   Objekter
--   Egenskaber
--   Serialisering
--   Metoder
--   Interfaces
+### Klasser
+
+I C# bruges klasser til at definere objekttyper. En klasse er en skabelon eller en blåprint, der beskriver egenskaberne og adfærden af objekter af denne type. En klasse kan indeholde datamedlemmer, metoder og andre typer af medlemmer.
+
+### Objekter
+
+Objekter i C# er instanser af klasser. Når du opretter et objekt, oprettes der en ny instans af klassen. Objekter kan indeholde data og udføre handlinger i henhold til klassedefinitionen.
+
+### Egenskaber
+
+Egenskaber i C# er medlemmer af klasser, der bruges til at få eller sætte værdier på en bestemt data medlem i klassen. Egenskaber består normalt af en get-metode og en set-metode, der bruges til at hente og gemme værdier i klassen.
+
+### Serialisering
+
+Serialisering i C# er processen med at konvertere et objekt til en strøm af bytes, der kan gemmes eller overføres. C# understøtter forskellige typer af serialisering, f.eks. binær serialisering, XML-serialisering og JSON-serialisering.
+
+### Metoder
+
+Metoder i C# er kodeblokke, der udfører en bestemt handling og kan kaldes fra andre dele af koden. En metode kan have inputparametre og returnere en værdi. Metoder kan bruges til at udføre gentagne handlinger eller udføre komplekse operationer i programmet.
+
+### Interfaces
+
+Interfaces i C# er en samling af metoder og egenskaber, der kan implementeres af en klasse. Et interface definerer en kontrakt, som en klasse skal overholde for at være kompatibel med andre dele af koden. Interfaces kan bruges til at opdele store applikationer i mindre, mere sammenhængende dele og opnå løs kobling mellem forskellige dele af koden.
 
 ```csharp
 using System;
@@ -363,9 +415,17 @@ namespace ExceptionHandlingExample
 
 ## Samlinger og LINQ
 
--   Arrays
--   Lister
--   LINQ grundlæggende
+### Arrays
+
+Arrays i C# er en samling af elementer af samme datatypen, der er gemt i en kontinuerlig hukommelsesblok. Du kan få adgang til elementerne i arrayet ved hjælp af deres indexnummer, som starter ved 0. Arrays i C# kan være af en hvilken som helst datatypen, og størrelsen af et array skal angives ved oprettelsestidspunktet.
+
+### Lister
+
+Lister i C# er en dynamisk samling af elementer af samme datatypen, der kan vokse og krympe efter behov. Du kan tilføje, slette eller ændre elementer i en liste ved hjælp af forskellige metoder. Lister i C# kan være af en hvilken som helst datatypen.
+
+### LINQ grundlæggende
+
+LINQ står for Language Integrated Query, og det er en måde at skrive SQL-lignende forespørgsler i C#. LINQ kan bruges til at hente data fra forskellige kilder, f.eks. arrays, lister, databaser osv. LINQ-forespørgsler består normalt af en række operationer, f.eks. filtrering, sortering, gruppe og projicering, og de kan udtrykkes ved hjælp af forskellige metoder.
 
 ```csharp
 using System;
