@@ -201,7 +201,7 @@ Parametre er værdier, som en metode modtager, når den kaldes. Parametre kan br
 
 Returtypen i en metode definerer den datatype, som metoden returnerer, når den er færdig med at udføre sin handling. Hvis en metode ikke returnerer nogen værdi, skal den defineres med en returtype af typen `void`.
 
-# ## Lambda-udtryk
+### Lambda-udtryk
 
 Et lambda-udtryk er en kort syntaks til at definere en anonym metode i C#. Lambda-udtryk kan bruges til at definere en inline funktion, der kan bruges til at udføre en bestemt handling. Lambda-udtryk består normalt af en parameterliste, en pile-operatør (`=>`) og en kodeblok, der udfører handlingen.
 
