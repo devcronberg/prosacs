@@ -50,6 +50,8 @@ Der er flere gode grunde til at lære C#:
 -   Skrivning af "Hello, World!"-koden
 -   Kompilering og kørsel af programmet
 
+![](Video/HelloWorld.mp4)
+
 ## Formål og anvendelser
 
 C# er et alsidigt programmeringssprog, der kan bruges til en bred vifte af applikationer. Nogle af de mest almindelige anvendelser inkluderer:
