@@ -59,8 +59,12 @@ C# er et alsidigt programmeringssprog, der kan bruges til en bred vifte af appli
 1. **Desktopapplikationer:**
 
     - C# bruges ofte til at oprette desktopapplikationer og konsolapplikationer på Windows-platformen.
-    - Nogle populære teknologier og rammer til at bygge desktopapplikationer i C# inkluderer: - Console Application: En simpel applikationstype, der kører i en kommandoprompt og er velegnet til at lære programmering eller til at oprette små værktøjer og scripts. - Windows Presentation Foundation (WPF): En moderne UI-ramme til at bygge Windows-desktopapplikationer. - Universal Windows Platform (UWP): En ramme til at skabe applikationer, der kører på tværs af Windows-enheder, herunder pc'er, tablets og smartphones. - WinForms: En ældre ramme til at bygge Windows-desktopapplikationer, der stadig bruges i nogle eksisterende projekter. - .NET MAUI (Multi-platform App UI): En cross-platform ramme til at skabe native applikationer til Windows, macOS, iOS og Android ved hjælp af en enkelt kodebase. MAUI er efterfølgeren til Xamarin.Forms og er en del af .NET 6 og frem.
-      ter.
+    - Nogle populære teknologier og rammer til at bygge desktopapplikationer i C# inkluderer:
+        - Console Application: En simpel applikationstype, der kører i en kommandoprompt og er velegnet til at lære programmering eller til at oprette små værktøjer og scripts.
+        - Windows Presentation Foundation (WPF): En moderne UI-ramme til at bygge Windows-desktopapplikationer.
+        - Universal Windows Platform (UWP): En ramme til at skabe applikationer, der kører på tværs af Windows-enheder, herunder pc'er, tablets og smartphones.
+        - WinForms: En ældre ramme til at bygge Windows-desktopapplikationer, der stadig bruges i nogle eksisterende projekter.
+        - .NET MAUI (Multi-platform App UI): En cross-platform ramme til at skabe native applikationer til Windows, macOS, iOS og Android ved hjælp af en enkelt kodebase. MAUI er efterfølgeren til Xamarin.Forms og er en del af .NET 6 og frem.
 
 2. **Webapplikationer:**
 
@@ -88,6 +92,7 @@ C# er et alsidigt programmeringssprog, der kan bruges til en bred vifte af appli
 
 -   [Visual Studio](https://visualstudio.microsoft.com/): Et kraftfuldt udviklingsmiljø til Windows og macOS, der understøtter C# og mange andre sprog. Visual Studio indeholder en lang række værktøjer og funktioner til at lette udviklingen af applikationer og spil.
 -   [Visual Studio Code](https://code.visualstudio.com/): En letvægts, open-source og cross-platform kode-editor til Windows, macOS og Linux, der understøtter C# og mange andre sprog. Visual Studio Code kan udvides med et stort antal udvidelser, der tilføjer ekstra funktionalitet og understøttelse for forskellige sprog og teknologier.
+    -   Led efter extension : C#
 -   [.NET SDK](https://dotnet.microsoft.com/download): Software Development Kit (SDK) til .NET-platformen, der indeholder værktøjer, kompilatorer og biblioteker, der er nødvendige for at udvikle, bygge og køre C#-applikationer. .NET SDK er tilgængelig for Windows, macOS og Linux.
 
 ## Grundlæggende C#-syntaks
