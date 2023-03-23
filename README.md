@@ -50,6 +50,10 @@ Der er flere gode grunde til at lære C#:
 -   Skrivning af "Hello, World!"-koden
 -   Kompilering og kørsel af programmet
 
+
+https://user-images.githubusercontent.com/2322789/227288252-de5d85e2-8cb8-4275-b067-68d0174d11d7.mp4
+
+
 ![](Video/HelloWorld.mp4)
 
 ## Formål og anvendelser
