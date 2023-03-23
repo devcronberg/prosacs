@@ -58,6 +58,59 @@ System.Console.WriteLine(t.Værdi);
 t.Ryst();
 System.Console.WriteLine(t.Værdi);
 
+
+int[] arr = new int[] { 5, 1, 56, 10, 2, 9 };
+System.Console.WriteLine(arr[2]);
+string[,] bræt = new string[8, 8];
+
+
+List<int> lst = new List<int>() { 5, 17, 2, 4, 3 };
+lst.Add(5);
+lst.RemoveAt(0);
+foreach (var item in lst)
+{
+    System.Console.WriteLine(item);
+}
+
+List<Terning> Bæger = new List<Terning>();
+Bæger.Add(new Terning());
+Bæger.Add(new Terning());
+foreach (var item in Bæger)
+{
+    item.Skriv();
+}
+
+// LINQ 5, 17, 2, 4, 3
+
+List<int> res = lst.Where(i => i < 10).OrderBy(i => i).ToList();
+foreach (var item in res)
+{
+    System.Console.WriteLine(item);
+}
+
+
+
+try
+{
+    int h = 10;
+    int i = 0;
+    int j = h / i;
+
+}
+catch (System.Exception ex)
+{
+    // log... NuGet
+    System.Console.WriteLine("Der er sket en fejl");
+    System.Console.WriteLine(ex.Message);
+
+}
+
+
+
+
+
+
+
 class Kunde
 {
     public int Alder { get; set; }
