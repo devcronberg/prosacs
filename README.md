@@ -504,3 +504,44 @@ namespace CollectionsAndLinqExample
 
 -   Spørgsmål fra deltagerne
 -   Opsummering af nøglepunkter
+
+## Ressourcer
+
+1. Microsofts officielle C# dokumentation: https://docs.microsoft.com/en-us/dotnet/csharp/
+2. C# Station: http://www.csharp-station.com/
+3. Udemy: https://www.udemy.com/topic/c-sharp/
+4. Pluralsight: https://www.pluralsight.com/browse/software-development/c-sharp
+5. Codecademy: https://www.codecademy.com/learn/learn-c-sharp
+6. Stack Overflow: https://stackoverflow.com/questions/tagged/c%23
+7. C# Corner: https://www.c-sharpcorner.com/
+8. GitHub: https://github.com/dotnet/csharplang
+9. ChatGpt: https://chat.openai.com/chat
+
+### ChatGpt Prompt
+
+Uden erfaring:
+
+```
+Du kan opfatte dig selv som en erfaren C# instruktør
+og mig som en studerende som skal lære C#. Jeg har
+absolut ingen erfaring med programmering eller C#
+så alle forklaringer skal være for begyndere. Alt kode du
+skriver skal være på engelsk, og du må gerne tilføje
+engelske kommenterer, men alt forklarende tekst skal være
+på dansk. Jeg skriver også dansk til dig. Du skal kun svare
+på spørgsmål fra mig og ikke selv stille mig spørgsmål.
+```
+
+Ved erfaring:
+
+```
+Du kan opfatte dig selv som en erfaren C# instruktør
+og mig som en studerende som skal lære C#. Jeg har
+tidligere erfaring med Python som du må gerne forklare
+koncepter udfra teori benyttet i Python. Alt kode du
+skriver skal være på engelsk, og du må gerne tilføje
+engelske kommenterer, men alt forklarende tekst skal være
+på dansk. Jeg skriver også dansk til dig. Du skal kun svare
+på spørgsmål fra mig og ikke selv stille mig spørgsmål.
+
+```
